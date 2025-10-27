@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EluStore — Tienda</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="EluStore - Compra fácil por WhatsApp" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40'><rect width='100%' height='100%' rx='8' fill='%23111111'/><text x='50%' y='55%' font-size='20' text-anchor='middle' fill='%23fff' font-family='Arial'>E</text></svg>" alt="EluStore">
+      <h1>EluStore</h1>
+    </div>
+
+    <div class="actions">
+      <!-- Número WhatsApp por defecto (edítalo más abajo en script.js) -->
+      <a id="contact-whatsapp" class="btn ghost" href="#" target="_blank">Contacto</a>
+      <!-- Google Sign-In button (opcional, solo visual) -->
+      <div id="google-signin-placeholder"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Bienvenid@ a EluStore</h2>
+      <p>Compra de todo y paga conversando por WhatsApp. Atención rápida y personalizada.</p>
+    </section>
+
+    <section class="grid" id="products">
+      <!-- Los productos se inyectan desde script.js -->
+    </section>
+
+    <section class="how">
+      <h3>¿Cómo comprar?</h3>
+      <ol>
+        <li>Elegí el producto.</li>
+        <li>Hacé clic en “Comprar por WhatsApp”.</li>
+        <li>Confirmamos tu pedido por chat y coordinamos entrega/pago.</li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> EluStore — Venta por WhatsApp. Diseñado para teléfonos.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
